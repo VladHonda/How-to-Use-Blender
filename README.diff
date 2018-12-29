@@ -1,0 +1,204 @@
+# How-to-Use-Blender
+How to Use Blender, Tips and Tricks
++Toggle through Rendered Solid Wireframe
+
+shitft+z  Rendered Solid
+alt+z     Wireframe Solid
+
+https://blender.stackexchange.com/questions/3690/toggle-wireframe-mode-with-hotkey
+
+shift+F3 - Node editor
+
+ctrl+a Freeze location rotation and whatever
+
++Proportional Editing
+
+https://www.blender.org/manu
+
+Dai scroll in timp ce modifici suprafata pentru a modifica raza (altfel nu merge)
+
++Rigging:
+
+select bone and armature - press shift p/
+
+Weight Painting
+
+1 - add
+9 - Subtract
+
++Clipping
+
+It's in the 3D View area's Properties N menu > View group:
+
+https://blender.stackexchange.com/questions/4946/where-can-the-viewport-clipping-parameters-be-changed
+
+Shift+b - zooms to an area
+
++UI
+
+Ctrl+DownArrow - Makes the selected window to take all the monitor's space.
+
+To get origin to a vertex selection
+
+shift+s - snap 3d cursor to vertex selection
+shift + s edit mode               Cursor to selected
+ctrl+alt+shift + c object mode    Origin to 3d Cursor
+
+	alt+m - merge vertex
+		j - make edge from two vertices
+		k - Knife tool
+		f - make a face from 2 edges
+
++Modeling
+
+Bridge edge selection - w\Loop Tools\Bridge (e sus Loop Tools)
+
+Crease edge: Shift+e
+
+Edge Loops:
+
+
+		alt and select and edge - selects the whole edge loop
+						 ctrl+e - special
+						 Ctrl+r - creates an edge loop
+		ctrl+b = Bevel
+
+Ctrl+F face menu
+Ctrl+E edge menu
+Ctrl+V Vertices menu
+
+
+Separate two objects - P
+
+G - grab camera
+Shift+f - rotate camera
+
++Node editor:
+
+						Add node = Shift+A + select what you want
+
+
+
++Texturing:
+					 Select the seams with the edge selection
+					 Ctrl E + mark seam
+					 select all = A
+					 press U then select Unwrap
+
+					 Ctrl+L/Join as UVs - Joins two UVs
+					 select a vertex then press ctrl+L to select all the vertices
+
++Material (Duplicate material)
+
+Copy paste
+https://blender.stackexchange.com/questions/43839/how-can-i-make-a-copy-of-a-material
+
+
++Pivots:
+				To get origin to a vertex selection
+
+				shift + s edit mode               Cursor to selected
+				ctrl+alt+shift + c object mode    Origin to 3d Cursor
+
++Joining Objects: (Merge) (Unite) (Join) (Group)
+
+								Group  Ctrl+j
++Ungroup Separate Objects  P and then click 'Selected'
+
+alt+g Pune obiectul selectat in centru
+alt+r resetează rotația obiectului
+
+
+
++Numpad . to zoom to selected (or menu View > Align View > View Selected)
+
+A to select all (you may need to hit it twice), then Numpad . will zoom to all objects.
+Or use ShiftC to reset view and recenter cursor.
+
+
++Camera:
+numpad0 = intrii in camera
+Ctrl alt numpad0 = camera se pune unde esti tu
+g = grap pan
+g si z z = zoom
+
+
++Blender to Maya shortcuts:
+
+. = F    focus object
+/ = I    Removes all other objects except the selected one
+
++Shortcuts
+
+shift+d Duplicate Object
+
+Add Lamp - adaugi lumina (nu merge cu point spotlight omni sun, le alegi tu dupa aceea)
+
++Sculpting
+
+http://blender.stackexchange.com/questions/7310/switch-between-sculpting-brushes
+
+F         brush size
+Shift + F brush strength
+
+---------------------------
+
++Increase Selection
+
+ctrl++
+
+Decrease Selection
+
+ctrl+-
+
+-----------------------------------
+
+Make references that you can see in all modes also in Solid and Perspective
+
+
+shift+a/Empty/Image
+
+ca sa adaugi poza du-te la antepenultimul meniu si dai Open
+
+https://blender.stackexchange.com/questions/118/how-do-i-set-a-background-image-while-i-am-editing/314#314
+
+----------------------------------------
+
+http://wiki.blender.org/index.php/Doc:2.4/Reference/Hotkeys/Edit
+https://www.blender.org/manual/modeling/meshes/selecting/advanced.html
+
++Reference - http://blender.stackexchange.com/questions/5283/how-to-show-textures-in-the-3d-view-editor
+-Item shading - GL SL
+
+GreaseTool link: http://blender.stackexchange.com/questions/35296/how-to-draw-grease-pencil-on-a-surface-blender-2-75
+
+
++Key Shapes
+
+
+
+Pentru orice comoditate sigur există ceva din antichitate :))
+
+Aer conditionat - https://en.wikipedia.org/wiki/Windcatcher
+Energie Regenerabilă - https://en.wikipediaorg/wiki/Norias_of_Hama și lista continuă
+Mâncare - https://ro.wikipedia.org/wiki/Gr%C4%83dinile_suspendate_ale_Semiramidei
+Calculator - https://en.wikipedia.org/wiki/Antikythera_mechanism
+						https://www.youtube.com/watch?v=SAsWFgpvYhA&feature=share
+
+
++Blender light studio
+
+49604960
+3145728
+
+Cleans unused shaders materials 
+
+For use: open text editor view the copy paste script and "Run Script"
+
+import bpy
+
+for material in bpy.data.materials:
+		if not material.users:
+				bpy.data.materials.remove(material)
+
+
