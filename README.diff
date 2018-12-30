@@ -1,5 +1,3 @@
-# How-to-Use-Blender
-How to Use Blender, Tips and Tricks
 +Toggle through Rendered Solid Wireframe
 
 shitft+z  Rendered Solid
@@ -108,6 +106,9 @@ https://blender.stackexchange.com/questions/43839/how-can-i-make-a-copy-of-a-mat
 alt+g Pune obiectul selectat in centru
 alt+r resetează rotația obiectului
 
+-Select all faces - space/remove doubles - unites all near vertices 
+
+https://blenderartists.org/t/how-do-i-merge-all-the-close-vertices-to-each-other-with-one-click/593185
 
 
 +Numpad . to zoom to selected (or menu View > Align View > View Selected)
