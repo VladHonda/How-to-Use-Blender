@@ -32,6 +32,8 @@ https://blender.stackexchange.com/questions/4946/where-can-the-viewport-clipping
 
 Shift+b - zooms to an area
 
+z - wireframe mode 
+
 +UI
 
 Ctrl+DownArrow - Makes the selected window to take all the monitor's space.
@@ -71,6 +73,12 @@ Separate two objects - P
 G - grab camera
 Shift+f - rotate camera
 
++Sliding along the edge
+
+Select the point and press Shift V or GG. Alternatively you can go through the menus by selecting Mesh -> Vertices -> Slide. Then move it to the desired point on the line with the mouse and click to set it. Hold Alt to slide it past the end of the edge.
+
+https://blender.stackexchange.com/questions/2978/sliding-a-point-along-an-edge
+
 +Node editor:
 
 						Add node = Shift+A + select what you want
@@ -85,6 +93,11 @@ Shift+f - rotate camera
 
 					 Ctrl+L/Join as UVs - Joins two UVs
 					 select a vertex then press ctrl+L to select all the vertices
+
+-Remove seams:
+							ctrl+e h or ctrl+e Clear Sharp
+
+							https://blender.stackexchange.com/questions/32913/clear-uv-seams-not-clearing-seams
 
 +Material (Duplicate material)
 
