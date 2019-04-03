@@ -172,7 +172,7 @@ Make references that you can see in all modes also in Solid and Perspective
 
 shift+a/Empty/Image
 
-ca sa adaugi poza du-te la antepenultimul meniu si dai Open
+to add a picture go to the antepenultimate menu and hit Open
 
 https://blender.stackexchange.com/questions/118/how-do-i-set-a-background-image-while-i-am-editing/314#314
 
@@ -191,19 +191,8 @@ GreaseTool link: http://blender.stackexchange.com/questions/35296/how-to-draw-gr
 
 
 
-Pentru orice comoditate sigur există ceva din antichitate :))
-
-Aer conditionat - https://en.wikipedia.org/wiki/Windcatcher
-Energie Regenerabilă - https://en.wikipediaorg/wiki/Norias_of_Hama și lista continuă
-Mâncare - https://ro.wikipedia.org/wiki/Gr%C4%83dinile_suspendate_ale_Semiramidei
-Calculator - https://en.wikipedia.org/wiki/Antikythera_mechanism
-						https://www.youtube.com/watch?v=SAsWFgpvYhA&feature=share
-
-
 +Blender light studio
 
-49604960
-3145728
 
 Cleans unused shaders materials 
 
@@ -215,4 +204,15 @@ for material in bpy.data.materials:
 		if not material.users:
 				bpy.data.materials.remove(material)
 
+---------------------------------------------------------------------------------
+
+Pentru orice comoditate sigur există ceva din antichitate :))
+For every comodity they is something from antiquity
+
+Air conditioning - https://en.wikipedia.org/wiki/Windcatcher
+Regenerative Energy - https://en.wikipediaorg/wiki/Norias_of_Hama și lista continuă
+Food - https://ro.wikipedia.org/wiki/Gr%C4%83dinile_suspendate_ale_Semiramidei
+Batteries - https://en.wikipedia.org/wiki/Baghdad_Battery
+Calculator - https://en.wikipedia.org/wiki/Antikythera_mechanism
+						https://www.youtube.com/watch?v=SAsWFgpvYhA&feature=share
 
