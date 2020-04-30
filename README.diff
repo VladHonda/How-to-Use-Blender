@@ -58,7 +58,10 @@ Crease edge: Shift+e
 
 Edge Loops:
 
-
+                ctrl+click finds the shortest path to your selection
+		
+		https://youtu.be/Ebx2qbBlvh0?t=365
+		
 		alt and select and edge - selects the whole edge loop
 						 ctrl+e - special
 						 Ctrl+r - creates an edge loop
