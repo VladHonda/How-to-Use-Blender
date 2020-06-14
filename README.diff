@@ -1,7 +1,10 @@
 +Toggle through Rendered Solid Wireframe
 
-shitft+z  Rendered Solid
-alt+z     Wireframe Solid
+-shift+z  Rendered Solid (Before 2.8)
+-alt+z     Wireframe Solid (Before 2.8)
+shift+z toggle between Solid and Wireframe
+alt+z toggle Xray available only in Solid mode
+
 
 https://blender.stackexchange.com/questions/3690/toggle-wireframe-mode-with-hotkey
 
